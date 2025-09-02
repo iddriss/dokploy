@@ -100,7 +100,7 @@ export const suggestVariants = async ({
 				description: z.string(),
 			}),
 			prompt: `
-        Act as advanced DevOps engineer and generate a list of open source projects what can cover users needs(up to 3 items), the suggestion 
+        Act as advanced DevOps engineer and generate a list of open source projects that can cover users needs(up to 3 items), the suggestion 
         should include id, name, shortDescription, and description. Use slug of title for id. 
         
         Important rules for the response:
